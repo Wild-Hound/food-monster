@@ -1,0 +1,22 @@
+.searchArea {
+  margin: 25px 0;
+}
+#searchTag {
+  padding: 5px 20px;
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.searchBtn {
+  font-size: 20px;
+  padding: 5px 20px;
+  border: none;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}

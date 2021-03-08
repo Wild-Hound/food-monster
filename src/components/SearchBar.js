@@ -1,4 +1,5 @@
 import React,  { useEffect } from 'react'
+import "./SearchBar.css"
 
 function SearchBar({func}) {
     useEffect(() => {
@@ -11,9 +12,9 @@ function SearchBar({func}) {
     
 
     return (
-        <div>
-            <input id="searchTag" />
-            <button onClick={ () => func()}>Search</button>
+        <div className="searchArea">
+            <input id="searchTag" placeholder="Type Here"/>
+            <button onClick={ () => func()} className="searchBtn">Search</button>
         </div>
     )
 }
