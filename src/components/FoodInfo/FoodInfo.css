@@ -1,0 +1,49 @@
+.FIwrapper {
+  max-width: fit-content;
+  margin: auto;
+  padding: 2em 1em;
+}
+.FImeta {
+  max-width: fit-content;
+  margin: auto;
+  background-color: #ea2027;
+  color: white;
+  padding: 2.5em;
+  border-radius: 10px;
+  text-align: start;
+}
+.FImeta > img {
+  display: block;
+  max-width: 450px;
+  max-height: 250px;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
+}
+.FIinstructions {
+  text-align: start;
+  max-width: 75ch;
+  font-size: 1.15em;
+  background-color: #006266;
+  color: white;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+.FIingredients {
+  text-align: start;
+  padding: 1em;
+  background-color: #1289a7;
+  color: white;
+  border-radius: 10px;
+}
+.ingredientsWrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+.ingredientList {
+  display: inline-block;
+  margin: 0;
+}
